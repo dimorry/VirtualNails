@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">VirtualNails</string>
+    <string name="titulo_app">Virtual Nails</string>
+    <string name="tirar_foto">Tirar foto</string>
+    <string name="limpa_tela">Limpa tela</string>
+</resources>
