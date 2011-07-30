@@ -1,5 +1,2 @@
-A proposta do aplicativo é você poder, através da câmera do seu celular, ver em tempo real (usando o preview da câmera) ou mesmo tirar uma foto da sua mão (sugestão dada na apresentação do projeto no curso), posicionar melhor a imagem de cada unha em cima de cada dedo e escolher a cor do esmalte.
-
-O principal problema foi conseguir a rotação correta da câmera no meu celular (um motorola Atrix). A imagem da câmera aparecia girada em 90 graus (o telefone estava apontado para cima e a imagem da mão aparecia deitada), o que é, aparentemente, um problema que acontece nos celulares motorola.
-Eu percebi que o aplicativo da máquina fotográfica que vem no celular não apresentava esse problema então baixei o código fonte dele para ver como ele trabalha a rotação da imagem. Todo o código fonte, não só do android, mas também dos pacotes de aplicativos de cada uma das versões pode ser baixado de um repositório GIT aqui. No windows eu uso o mysysgit para fazer o clone do repositório.
-Descobri então, que na versão 2.2 ou API level 8 foi introduzido o método setDisplayOrientation() na classe Camera que recebe como parâmetro o número de graus a rodar a imagem. Esse método simplificou o processo, mas ainda estou trabalhando na correção da rotação da imagem para as versões anteriores do android.
+App still under development.
+Need android 2.2 or API Level 8 for now.
